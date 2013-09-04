@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="smack">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/smack.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../Spark/src/java" />
+      <root url="file://$PROJECT_DIR$/../../smack/source" />
+    </SOURCES>
+  </library>
+</component>

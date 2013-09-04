@@ -22,6 +22,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="Apache Tomcat 7.0.34" level="project" />
     <orderEntry type="library" exported="" name="gson-2.2.4" level="project" />
+    <orderEntry type="library" name="smack" level="project" />
+    <orderEntry type="library" name="smackx" level="project" />
   </component>
 </module>
 

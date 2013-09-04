@@ -7,31 +7,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/smack.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/smackx.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/baosight/sparkweb/message/ClientThread.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/baosight/sparkweb/message/IMMessageListner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/baosight/sparkweb/message/IMReceiveMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/baosight/sparkweb/message/IMSendMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/baosight/sparkweb/message/IMSendMessageImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/SaintKnight.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/sendmessage.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/smack.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/smackx.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ContactsWeb.iml" afterPath="$PROJECT_DIR$/ContactsWeb.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ContactsWeb_Web_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ContactsWeb_Web_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/getcontactsg.jsp" afterPath="$PROJECT_DIR$/web/getcontactsg.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/getcontactsggroup.jsp" afterPath="$PROJECT_DIR$/web/getcontactsggroup.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ContactsWeb.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/getcontactsggroup.jsp" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378189481005" ignored="false" />
+    <file path="/getcontactsggroup.jsp" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378202012728" ignored="false" />
     <file path="$PROJECT_DIR$/../../PlatDemo/web/index.jsp" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1377763154916" ignored="false" />
     <file path="/index.jsp" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1377764554638" ignored="false" />
     <file path="$PROJECT_DIR$/../untitled/123132131/web/WEB-INF/web.xml" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1377765746790" ignored="false" />
     <file path="$PROJECT_DIR$/../ContactG/src/ContactGGroup.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378179477246" ignored="false" />
-    <file path="/ContactGGroup.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378172020437" ignored="false" />
-    <file path="$PROJECT_DIR$/../ContactG/src/ContactGList.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378187512220" ignored="false" />
-    <file path="/ContactGList.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378187219476" ignored="false" />
-    <file path="/a.dummy" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378185998394" ignored="false" />
-    <file path="$PROJECT_DIR$/../ContactG/target/plugin.xml" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378187351458" ignored="false" />
-    <file path="/Dummy.txt" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378192179479" ignored="false" />
-    <file path="$PROJECT_DIR$/../ContactG/.idea/workspace.xml" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378192194752" ignored="false" />
+    <file path="/ContactGGroup.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378297304658" ignored="false" />
+    <file path="$PROJECT_DIR$/../ContactG/src/ContactGList.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378202144427" ignored="false" />
+    <file path="/ContactGList.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378290385492" ignored="false" />
+    <file path="/a.dummy" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378299250091" ignored="false" />
+    <file path="$PROJECT_DIR$/../ContactG/target/plugin.xml" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378297687730" ignored="false" />
+    <file path="/Dummy.txt" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378297732498" ignored="false" />
+    <file path="$PROJECT_DIR$/../ContactG/.idea/workspace.xml" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378298268348" ignored="false" />
     <file path="$PROJECT_DIR$/META-INF/application.xml" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378177764129" ignored="false" />
     <file path="$PROJECT_DIR$/web/WEB-INF/web.xml" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378177910418" ignored="false" />
     <file path="/getcontacts.jsp" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378185053263" ignored="false" />
     <file path="/getcontactsg.jsp" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378185768774" ignored="false" />
     <file path="$PROJECT_DIR$/../ContactG/src/ContactGItem.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378187512220" ignored="false" />
-    <file path="/ContactGItem.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378186146864" ignored="false" />
+    <file path="/ContactGItem.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378262732212" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Spark/src/plugins/navigation/src/com/jivesoftware/spark/navigation/NavigationPlugin.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378208425865" ignored="false" />
+    <file path="/fragment.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378285257937" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Spark/build/build.xml" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378214577482" ignored="false" />
+    <file path="$PROJECT_DIR$/../ContactG/src/com/baosight/spark/plugin/ContactGGroupListener.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378297470674" ignored="false" />
+    <file path="$PROJECT_DIR$/../ContactG/src/com/baosight/spark/plugin/ContactGItem.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378297570481" ignored="false" />
+    <file path="$PROJECT_DIR$/../ContactG/src/com/baosight/spark/plugin/ContactGListListener.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378256179690" ignored="false" />
+    <file path="$PROJECT_DIR$/../ContactG/src/com/baosight/spark/plugin/ContactGList.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378297738924" ignored="false" />
+    <file path="$PROJECT_DIR$/../ContactG/src/com/baosight/spark/plugin/ContactGGroup.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378297607529" ignored="false" />
+    <file path="$PROJECT_DIR$/../ContactG/plugin.xml" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378256179690" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Spark/src/plugins/orgTree/target/plugin.xml" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378256707755" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Spark/src/plugins/orgTree/src/com/jivesoftware/spark/orgtree/TreePanel.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378257373041" ignored="false" />
+    <file path="/TreePanel.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378257000552" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Spark/src/java/org/jivesoftware/sparkimpl/settings/local/LocalPreferences.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378261133379" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Spark/src/java/org/jivesoftware/spark/ui/ContactList.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378264722534" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Spark/src/java/org/jivesoftware/spark/ui/ContactItem.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378266981187" ignored="false" />
+    <file path="$PROJECT_DIR$/../ContactG/src/com/baosight/spark/plugin/ContactGInfoWindow.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378297738924" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Spark/src/java/org/jivesoftware/spark/ui/ContactInfoWindow.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378272170838" ignored="false" />
+    <file path="/ContactGInfoWindow.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378281946990" ignored="false" />
+    <file path="/sendmessage.jsp" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378299122353" ignored="false" />
+    <file path="/IMReceiveMessage.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378298799956" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,21 +124,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="getcontactsggroup.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/getcontactsggroup.jsp">
+      <file leaf-file-name="IMSendMessageImpl.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/baosight/sparkweb/message/IMSendMessageImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="60" selection-start="3147" selection-end="3147" vertical-scroll-proportion="0.37185928">
+            <state line="55" column="18" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.19248827">
               <folding>
-                <element signature="e#2355#2375#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getcontactsg.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/getcontactsg.jsp">
+      <file leaf-file-name="sendmessage.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/sendmessage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="73" selection-start="712" selection-end="716" vertical-scroll-proportion="-7.464286">
+            <state line="11" column="22" selection-start="375" selection-end="375" vertical-scroll-proportion="-7.464286">
               <folding />
             </state>
           </provider>
@@ -133,8 +165,14 @@
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/ContactsWeb.iml" />
         <option value="$PROJECT_DIR$/web/getcontacts.jsp" />
-        <option value="$PROJECT_DIR$/web/getcontactsg.jsp" />
         <option value="$PROJECT_DIR$/web/getcontactsggroup.jsp" />
+        <option value="$PROJECT_DIR$/web/getcontactsg.jsp" />
+        <option value="$PROJECT_DIR$/src/ClientThread.java" />
+        <option value="$PROJECT_DIR$/src/com/baosight/sparkweb/message/ClientThread.java" />
+        <option value="$PROJECT_DIR$/src/com/baosight/sparkweb/message/IMReceiveMessage.java" />
+        <option value="$PROJECT_DIR$/src/com/baosight/sparkweb/message/IMSendMessage.java" />
+        <option value="$PROJECT_DIR$/web/sendmessage.jsp" />
+        <option value="$PROJECT_DIR$/src/com/baosight/sparkweb/message/IMSendMessageImpl.java" />
       </list>
     </option>
   </component>
@@ -163,7 +201,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -189,7 +227,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -227,8 +264,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContactsWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContactsWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="message" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContactsWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContactsWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,15 +309,23 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../smack/source" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SaintKnight\workspace\Sparkplugs\ContactsWeb\lib" />
+      <recent name="C:\Users\SaintKnight\workspace\Sparkplugs\ContactsWeb\src" />
+    </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Apache Tomcat 7.0.39">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -262,6 +340,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -290,19 +381,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -467,6 +545,11 @@
       <created>1377761492209</created>
       <updated>1377761492209</updated>
     </task>
+    <task id="LOCAL-00001" summary="追加：详细的测试内容">
+      <created>1378192217861</created>
+      <updated>1378192217861</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -491,11 +574,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="201" y="31" width="1196" height="847" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280116" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946298" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40493467" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -512,14 +596,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295302" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280116" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14575972" sideWeight="0.6574746" order="0" side_tool="false" content_ui="combo" x="660" y="73" width="218" height="753" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14575972" sideWeight="0.6574746" order="0" side_tool="false" content_ui="combo" x="660" y="73" width="218" height="753" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3425254" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -565,7 +648,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="追加：详细的测试内容" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -579,6 +662,7 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="追加：详细的测试内容" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -588,95 +672,24 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="52" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/getcontactsggroup.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="104" selection-start="2772" selection-end="2772" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2355#2375#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="52" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/getcontactsggroup.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2355#2375#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="52" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/getcontactsggroup.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="143" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2355#2375#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="52" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/getcontactsggroup.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2355#2375#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="52" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../memory_project/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="20" selection-start="195" selection-end="195" vertical-scroll-proportion="0.23937008" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="35" selection-start="313" selection-end="313" vertical-scroll-proportion="0.47949526">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
         <state />
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
         <state />
       </provider>
     </entry>
@@ -697,18 +710,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/baosight/sparkweb/message/IMReceiveMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="49" selection-start="3712" selection-end="3724" vertical-scroll-proportion="0.5365854">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/baosight/sparkweb/message/IMMessageListner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="183" selection-end="183" vertical-scroll-proportion="0.11875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/baosight/sparkweb/message/ClientThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="27" selection-start="285" selection-end="285" vertical-scroll-proportion="0.28247735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/getcontactsg.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="73" selection-start="712" selection-end="716" vertical-scroll-proportion="-7.464286">
+        <state line="22" column="68" selection-start="900" selection-end="900" vertical-scroll-proportion="0.2082019">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/getcontactsggroup.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="60" selection-start="3147" selection-end="3147" vertical-scroll-proportion="0.37185928">
+        <state line="46" column="81" selection-start="1303" selection-end="1303" vertical-scroll-proportion="0.659306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/smack.jar!/org/jivesoftware/smack/ConnectionConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="11" selection-start="2127" selection-end="2127" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../smack/source/org/jivesoftware/smack/ConnectionConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="170" column="11" selection-start="6989" selection-end="6989" vertical-scroll-proportion="0.3323263">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/sendmessage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="22" selection-start="375" selection-end="375" vertical-scroll-proportion="-7.464286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/baosight/sparkweb/message/IMSendMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="19" selection-start="614" selection-end="614" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../smack/source/org/jivesoftware/smack/XMPPConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="302" column="29" selection-start="11351" selection-end="11351" vertical-scroll-proportion="-0.20187794">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/baosight/sparkweb/message/IMSendMessageImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="18" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.19248827">
           <folding>
-            <element signature="e#2355#2375#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -768,11 +846,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|ContactsWeb</last-edited>
+          <last-edited>ContactsWeb</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

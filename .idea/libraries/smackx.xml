@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="smackx">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/smackx.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

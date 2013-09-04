@@ -9,6 +9,8 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="gson-2.2.4" />
+          <element id="library" level="project" name="smack" />
+          <element id="library" level="project" name="smackx" />
         </element>
       </element>
     </root>

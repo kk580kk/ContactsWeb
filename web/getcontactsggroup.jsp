@@ -79,7 +79,7 @@
         List<ContactsGGroupBean> contactGGroupsTest = new ArrayList<ContactsGGroupBean>();
 
         //测试数据，2013年9月3日14:24:41
-        contactGGroupsTest.add(new ContactsGGroupBean("root",null));
+        contactGGroupsTest.add(new ContactsGGroupBean("解决方案事业部",null));
         contactGGroupsTest.add(new ContactsGGroupBean("Software Dept",null));
         contactGGroupsTest.add(new ContactsGGroupBean("JAVA","Software Dept"));
         contactGGroupsTest.add(new ContactsGGroupBean("C#","Software Dept"));
