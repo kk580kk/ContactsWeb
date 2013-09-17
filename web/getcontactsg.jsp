@@ -18,7 +18,7 @@
 <%!
     private List<ContactsGBean> getContactsG(){
          List<ContactsGBean> contactsGBeans = new ArrayList<ContactsGBean>();
-        contactsGBeans.add( new ContactsGBean("Dept.Wang","a","a@berserker","Software Dept"));
+        contactsGBeans.add( new ContactsGBean("Dept.Wang","a","a@arthursrt","Software Dept"));
 //        contactsGBeans.add(new ContactsGBean("Dept.Li","b","b@berserker","Software Dept"));
 //        contactsGBeans.add( new ContactsGBean("JAVA.Zhang","c","c@berserker","JAVA"));
 //        contactsGBeans.add( new ContactsGBean("C#.Li","d","d@berserker","C#"));
