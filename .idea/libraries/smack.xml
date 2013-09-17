@@ -5,8 +5,8 @@
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="file://$PROJECT_DIR$/../../Spark/src/java" />
-      <root url="file://$PROJECT_DIR$/../../smack/source" />
+      <root url="file://$USER_HOME$/Spark/src/java" />
+      <root url="file://$USER_HOME$/smack/source" />
     </SOURCES>
   </library>
 </component>

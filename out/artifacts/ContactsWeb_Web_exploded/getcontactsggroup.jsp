@@ -49,12 +49,7 @@
             this.parentGroup = parentGroup;
         }
     }
-    ContactsGGroupBean contactsGGroupBean = new ContactsGGroupBean("root",null);
-    ContactsGGroupBean contactsGGroupBean1 = new ContactsGGroupBean("a","root");
-    ContactsGGroupBean contactsGGroupBean2 = new ContactsGGroupBean("b","root");
-    ContactsGGroupBean contactsGGroupBean3 = new ContactsGGroupBean("c","a");
-    ContactsGGroupBean contactsGGroupBean4 = new ContactsGGroupBean("d","a");
-    ContactsGGroupBean contactsGGroupBean5 = new ContactsGGroupBean("e","d");
+
 //    String root = "{\n" +
 //            "    \"groupName\": \"root\",\n" +
 //            "    \"parentGroup\": null\n" +
@@ -82,12 +77,20 @@
 
     private String getRoot() {
         List<ContactsGGroupBean> contactGGroupsTest = new ArrayList<ContactsGGroupBean>();
-        contactGGroupsTest.add(contactsGGroupBean);
-        contactGGroupsTest.add(contactsGGroupBean1);
-        contactGGroupsTest.add(contactsGGroupBean2);
-        contactGGroupsTest.add(contactsGGroupBean3);
-        contactGGroupsTest.add(contactsGGroupBean4);
-        contactGGroupsTest.add(contactsGGroupBean5);
+
+        //测试数据，2013年9月3日14:24:41
+        contactGGroupsTest.add(new ContactsGGroupBean("解决方案事业部",null));
+        contactGGroupsTest.add(new ContactsGGroupBean("Software Dept",null));
+        contactGGroupsTest.add(new ContactsGGroupBean("JAVA","Software Dept"));
+        contactGGroupsTest.add(new ContactsGGroupBean("C#","Software Dept"));
+        contactGGroupsTest.add(new ContactsGGroupBean("Design Department",null));
+        contactGGroupsTest.add(new ContactsGGroupBean("Graphic design department","Design Department"));
+        contactGGroupsTest.add(new  ContactsGGroupBean("Interface design","Design Department"));
+        contactGGroupsTest.add( new ContactsGGroupBean("Java Server Pages","JAVA"));
+        contactGGroupsTest.add(new ContactsGGroupBean("J2EE","JAVA"));
+        contactGGroupsTest.add( new ContactsGGroupBean("Finance Department",null));
+        contactGGroupsTest.add( new ContactsGGroupBean("Audit Department",null));
+
         String jsonData =new GsonBuilder().create().toJson(contactGGroupsTest, new TypeToken<List<ContactsGGroupBean>>() {
         }.getType());
         return jsonData;

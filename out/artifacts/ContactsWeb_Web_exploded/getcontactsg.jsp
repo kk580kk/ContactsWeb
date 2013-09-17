@@ -18,22 +18,17 @@
 <%!
     private List<ContactsGBean> getContactsG(){
          List<ContactsGBean> contactsGBeans = new ArrayList<ContactsGBean>();
-        contactsGBeans.add(contactsGBean);
-        contactsGBeans.add(contactsGBean1);
-        contactsGBeans.add(contactsGBean2);
-        contactsGBeans.add(contactsGBean3);
-        contactsGBeans.add(contactsGBean4);
-        contactsGBeans.add(contactsGBean5);
-        contactsGBeans.add(contactsGBean6);
+        contactsGBeans.add( new ContactsGBean("Dept.Wang","a","a@berserker","Software Dept"));
+//        contactsGBeans.add(new ContactsGBean("Dept.Li","b","b@berserker","Software Dept"));
+//        contactsGBeans.add( new ContactsGBean("JAVA.Zhang","c","c@berserker","JAVA"));
+//        contactsGBeans.add( new ContactsGBean("C#.Li","d","d@berserker","C#"));
+//        contactsGBeans.add(new ContactsGBean("Desi.Lucy","e","e@berserker","Design Department"));
+//        contactsGBeans.add( new ContactsGBean("Graph.Bate","f","f@berserker","Graphic design department"));
+//        contactsGBeans.add(new ContactsGBean("Int.Lily","g","g@berserker","Interface design"));
+//        contactsGBeans.add( new ContactsGBean("JSP.Kate","g","g@berserker","Java Server Pages"));
         return contactsGBeans;
     }
-    ContactsGBean contactsGBean = new ContactsGBean("a","a","a@berserker","root");
-    ContactsGBean contactsGBean1 = new ContactsGBean("b","b","b@berserker","root");
-    ContactsGBean contactsGBean2 = new ContactsGBean("c","c","c@berserker","root");
-    ContactsGBean contactsGBean3 = new ContactsGBean("d","d","d@berserker","root");
-    ContactsGBean contactsGBean4 = new ContactsGBean("e","e","e@berserker","root");
-    ContactsGBean contactsGBean5 = new ContactsGBean("f","f","f@berserker","root");
-    ContactsGBean contactsGBean6 = new ContactsGBean("g","g","g@berserker","root");
+
     class ContactsGBean {
         private String alias;
         private String nickname;
