@@ -4,9 +4,6 @@
       <root url="jar://$PROJECT_DIR$/lib/smack.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="file://$USER_HOME$/Spark/src/java" />
-      <root url="file://$USER_HOME$/smack/source" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>

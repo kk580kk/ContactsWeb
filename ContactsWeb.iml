@@ -9,7 +9,6 @@
         <webroots>
           <root url="file://$MODULE_DIR$/web" relative="/" />
         </webroots>
-        <sourceRoots />
       </configuration>
     </facet>
   </component>
@@ -20,10 +19,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="Apache Tomcat 7.0.34" level="project" />
     <orderEntry type="library" exported="" name="gson-2.2.4" level="project" />
     <orderEntry type="library" name="smack" level="project" />
     <orderEntry type="library" name="smackx" level="project" />
+    <orderEntry type="library" name="jsp-api" level="project" />
   </component>
 </module>
 

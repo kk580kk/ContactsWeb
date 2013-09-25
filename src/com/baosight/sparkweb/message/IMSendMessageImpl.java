@@ -1,4 +1,4 @@
-package com.baosight.sparkweb.message;
+package com.baosight.sparkweb.message;//package com.baosight.sparkweb.message;
 
 import org.jivesoftware.smack.Chat;
 import org.jivesoftware.smack.ConnectionConfiguration;
@@ -8,23 +8,23 @@ import org.jivesoftware.smack.packet.Message;
 
 public class IMSendMessageImpl implements IMSendMessage {
 	
-	public boolean sender(String springBeanId,String methodName,Object[] parameters)
+	public boolean sender(String springBeanId,String methodName,Object[] paramters)
 	{
 		  try {
-			final ConnectionConfiguration config = new ConnectionConfiguration(SERVER_NAME, SERVER_PORT);
+			final ConnectionConfiguration config = new ConnectionConfiguration(IMSendMessageImpl.SERVER_NAME, IMSendMessageImpl.SERVER_PORT);
 			  config.setSecurityMode(ConnectionConfiguration.SecurityMode.disabled);
 			  config.setCompressionEnabled(false);
 			  final XMPPConnection connection = new XMPPConnection(config);
 			  connection.connect();
 			  connection.loginAnonymously();
   
-			  Chat chat = connection.getChatManager().createChat(modelJID,new IMMessageListner());
+			  Chat chat = connection.getChatManager().createChat(IMSendMessageImpl.modelJID,new IMMessageListner());
 			  Message newMessage = new Message();
 			
 			  newMessage.setProperty("business","type1");
 			  newMessage.setProperty("springBeanId",springBeanId);
 			  newMessage.setProperty("methodName",methodName);
-			  newMessage.setProperty("parameters",parameters);
+			  newMessage.setProperty("paramters",paramters);
      
 			  System.out.println(newMessage.toXML());
 
@@ -39,7 +39,7 @@ public class IMSendMessageImpl implements IMSendMessage {
 	
 	
 	/**
-	 * -->openfire-->com.baosight.sparkweb.message.IMReceiveMessage
+	 * -->openfire-->IMReceiveMessage
 	 * xml format
 	 * @param receiver
 	 * @param msg
@@ -48,14 +48,14 @@ public class IMSendMessageImpl implements IMSendMessage {
 	public boolean sender(String receiver,String msg)
 	{
 		try {
-			final ConnectionConfiguration config = new ConnectionConfiguration(SERVER_NAME, SERVER_PORT);
+			final ConnectionConfiguration config = new ConnectionConfiguration(IMSendMessageImpl.SERVER_NAME, IMSendMessageImpl.SERVER_PORT);
 			  config.setSecurityMode(ConnectionConfiguration.SecurityMode.disabled);
 			  config.setCompressionEnabled(false);
 			  final XMPPConnection connection = new XMPPConnection(config);
 			  connection.connect();
 			  connection.loginAnonymously();
   
-			  Chat chat = connection.getChatManager().createChat(modelJID,new IMMessageListner());
+			  Chat chat = connection.getChatManager().createChat(IMSendMessageImpl.modelJID,new IMMessageListner());
 			  Message newMessage = new Message();
 			  newMessage.setProperty("business","type2");
      
@@ -80,14 +80,14 @@ public class IMSendMessageImpl implements IMSendMessage {
 	public boolean sender(String receiver,String type,int count)  //jid,mail,number
 	{
 		try {
-			final ConnectionConfiguration config = new ConnectionConfiguration(SERVER_NAME, SERVER_PORT);
+			final ConnectionConfiguration config = new ConnectionConfiguration(IMSendMessageImpl.SERVER_NAME, IMSendMessageImpl.SERVER_PORT);
 			  config.setSecurityMode(ConnectionConfiguration.SecurityMode.disabled);
 			  config.setCompressionEnabled(false);
 			  final XMPPConnection connection = new XMPPConnection(config);
 			  connection.connect();
 			  connection.loginAnonymously();
   
-			  Chat chat = connection.getChatManager().createChat(modelJID,new IMMessageListner());
+			  Chat chat = connection.getChatManager().createChat(IMSendMessageImpl.modelJID,new IMMessageListner());
 			  Message newMessage = new Message();
 			  newMessage.setProperty("notice", type);
 	          newMessage.setProperty("num", String.valueOf(count));

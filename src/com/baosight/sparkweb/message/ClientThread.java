@@ -1,4 +1,4 @@
-package com.baosight.sparkweb.message;
+package com.baosight.sparkweb.message;//package com.baosight.efmpx.im;
 
 import org.jivesoftware.smack.XMPPConnection;
 
@@ -8,7 +8,7 @@ public class ClientThread implements Runnable
 
 	public ClientThread(XMPPConnection conn)
 	{
-		connection = new XMPPConnection("localhost");
+		connection = new XMPPConnection("10.25.36.197");
 		connection = conn;
 	}
 

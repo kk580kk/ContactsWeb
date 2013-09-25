@@ -1,4 +1,4 @@
-package com.baosight.sparkweb.message;
+package com.baosight.sparkweb.message;//package com.baosight.sparkweb.message;
 
 import java.lang.reflect.Method;
 
@@ -16,7 +16,9 @@ import org.jivesoftware.smack.packet.Packet;
 
 public class IMReceiveMessage  implements PacketListener{
 	public static final String SERVER_NAME = "10.25.36.197";
-	public static final int SERVER_PORT = 5222;
+	public static final int SERVER_PORT = 5222; 
+	private final String clientName="00000000_00001";
+	private final String clientPassword ="00000000_00001";
 
 	private XMPPConnection connection = null;
 	public static String cid = null;
@@ -37,7 +39,7 @@ public class IMReceiveMessage  implements PacketListener{
 			PacketFilter messageFilter = new PacketTypeFilter(Message.class);
 			connection.addPacketListener(this, messageFilter);
 			
-//			com.baosight.sparkweb.message.ClientThread thread = new com.baosight.sparkweb.message.ClientThread(connection);
+//			ClientThread thread = new ClientThread(connection);
 //			thread.run();
 			
 			new Thread(new ClientThread(connection)).start();
@@ -46,29 +48,29 @@ public class IMReceiveMessage  implements PacketListener{
 		}
 	}
 	
-	public Object handleMessage(String beanId,String methodName,Object parameters[]){
-		Object returnObj = null;
-		try{
-//			Object obj = SpringApplicationContext.getApplicationContext().getBean(beanId);
-            Object obj = null ;
-			Class[] paramTypes = new Class[parameters.length];
-			
-			//init params
-			for(int i=0;i<parameters.length;i++){
-				paramTypes[i]=parameters[i].getClass();
-			}
-			Method m = obj.getClass().getMethod(methodName, paramTypes);
-			returnObj = m.invoke(obj, parameters);
-			
-		}catch(Exception e){
-			
-		};
-		return returnObj;
+	public Object handleMessage(String beanId,String methodName,Object paramters[]){
+//		Object returnObj = null;
+//		try{
+////			Object obj = SpringApplicationContext.getApplicationContext().getBean(beanId);
+//			Class[] paramTypes = new Class[paramters.length];
+//
+//			//init params
+//			for(int i=0;i<paramters.length;i++){
+//				paramTypes[i]=paramters[i].getClass();
+//			}
+//			Method m = obj.getClass().getMethod(methodName, paramTypes);
+//			returnObj = m.invoke(obj, paramters);
+//
+//		}catch(Exception e){
+//
+//		};
+//		return returnObj;
+        return  null;
 		
 	}
 
 	
-    private class SimpleMessageListener implements MessageListener {
+    private class SimpleMessageListner implements MessageListener {
         public void processMessage(Chat chat, Message message) {
         }
     }
@@ -76,9 +78,9 @@ public class IMReceiveMessage  implements PacketListener{
 	public void processPacket(Packet packet) {
 		 if (packet instanceof Message) {
 	            final Message message = (Message)packet;
-	            String jid;
+	            String jid ="";
 	            
-	            if(message.getProperty("notice") != null)
+	            if(message!=null && message.getProperty("notice")!=null)
 				{
 	            	if(message.getProperty("notice").equals("mail"))
 	            	{
@@ -87,8 +89,8 @@ public class IMReceiveMessage  implements PacketListener{
 						 message.setProperty("notice", "邮件");
 						 jid = (String)message.getProperty("receives");
 						 try {
-							final MessageListener messageListener = new SimpleMessageListener();
-							final Chat chat = connection.getChatManager().createChat(jid, messageListener);
+							final MessageListener messageListner = new SimpleMessageListner();
+							final Chat chat = connection.getChatManager().createChat(jid, messageListner);
 							chat.sendMessage(message);
 						 } catch (Exception e) {
 							e.printStackTrace();
@@ -96,7 +98,7 @@ public class IMReceiveMessage  implements PacketListener{
 	            	}
 				}
 	            
-	            if(message.getProperty("business") != null)
+	            if(message!=null && message.getProperty("business")!=null)
 	            {
 	            	System.out.println("模块收到处理消息消息");
 	            	if(message.getProperty("business").equals("type1"))

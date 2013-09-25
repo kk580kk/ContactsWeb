@@ -1,4 +1,4 @@
-package com.baosight.sparkweb.message;
+package com.baosight.sparkweb.message;//package com.baosight.sparkweb.message;
 
 import org.jivesoftware.smack.Chat;
 import org.jivesoftware.smack.MessageListener;

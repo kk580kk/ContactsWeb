@@ -1,4 +1,4 @@
-package com.baosight.sparkweb.message;
+package com.baosight.sparkweb.message;//package com.baosight.sparkweb.message;
 
 /**
  * 
@@ -11,7 +11,7 @@ package com.baosight.sparkweb.message;
 public interface IMSendMessage {
 	 public static final String SERVER_NAME = "localhost";
 	 public static final int SERVER_PORT = 5222; 
-	 public static final String modelJID=IMReceiveMessage.cid+"@berserker";
+	 public static final String modelJID= IMReceiveMessage.cid+"@localhost";
 	/**
 	 * 
 	 * @param springBeanId
@@ -32,7 +32,7 @@ public interface IMSendMessage {
 	public boolean sender(String receiver, String msg);
 	
 	/**
-	 * -->openfire-->com.baosight.sparkweb.message.IMReceiveMessage-->spark
+	 * -->openfire-->IMReceiveMessage-->spark
 	 * @param receiver
 	 * @param type
 	 * @param count
