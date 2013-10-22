@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+    <block name="user"/>
+    <block name="org">
+        <row>
+            <groupName>test2333</groupName>
+            <groupLabel>00000000_BSTA</groupLabel>
+        </row>
+        <row>
+            <groupName>商飞集团公司</groupName>
+            <groupLabel>00000000_SJ001</groupLabel>
+        </row>
+        <row>
+            <groupName>本溪钢铁</groupName>
+            <groupLabel>BGSJ0000</groupLabel>
+        </row>
+        <row>
+            <groupName>ffff</groupName>
+            <groupLabel>00000000_fff</groupLabel>
+        </row>
+        <row>
+            <groupName>金属</groupName>
+            <groupLabel>00000000_BGJS</groupLabel>
+        </row>
+        <row>
+            <groupName>党委维度</groupName>
+            <groupLabel>00000000_DWJG</groupLabel>
+        </row>
+        <row>
+            <groupName>test</groupName>
+            <groupLabel>00000000_ddddddddd</groupLabel>
+        </row>
+        <row>
+            <groupName>111</groupName>
+            <groupLabel>00000000_111</groupLabel>
+        </row>
+        <row>
+            <groupName>行政机构</groupName>
+            <groupLabel>00000000_XZJG</groupLabel>
+        </row>
+    </block>
+</blocks>
+
+

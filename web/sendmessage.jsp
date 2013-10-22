@@ -1,4 +1,4 @@
-<%@ page import="com.baosight.sparkweb.message.IMSendMessageImpl" %>
+<%@ page import="com.baosight.smirk.SmirkMsgSender,com.baosight.smirk.MessageFactory" %>
 <%--
   Created by IntelliJ IDEA.
   User: SaintKnight
@@ -8,7 +8,9 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
-    IMSendMessageImpl imSendMessage = new IMSendMessageImpl();
-    imSendMessage.sender("a@berserker","Hello World");
+ //   IMSendMessageImpl imSendMessage = new IMSendMessageImpl();
+ //   imSendMessage.sender("a@berserker","Hxello World");
+    SmirkMsgSender sms = new SmirkMsgSender();
+    sms.sendMsg("demo", MessageFactory.create("Hello"), null);
     out.write("Send success");
 %>
