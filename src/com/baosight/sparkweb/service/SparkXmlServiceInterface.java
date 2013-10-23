@@ -1,19 +1,13 @@
 package com.baosight.sparkweb.service;
 
-import java.util.HashMap;
+import java.util.Map;
 
 public interface SparkXmlServiceInterface {
-
-	
 	/**
 	 * 
-	 * @param params  输入参数 parentNode 
+	 * @param params   
 	 * @return 
 	 */
-	public String orgTree(HashMap params);
-
-	public String menu(HashMap params);
-	
-
+	public String doService(Map params);
 	
 }

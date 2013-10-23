@@ -7,30 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/IM01.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/IM02.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/IMDocumentDetail.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/IMDocumentFlow.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/IMMail.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/IMMailDetail.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/IMMailReadContent.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jsp_api.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/baosight/sparkweb/xml/mailList.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/mailList.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/baosight/sparkweb/xml/menu.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/menu.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/baosight/sparkweb/xml/org.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/org.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/baosight/sparkweb/xml/orgtree.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/orgtree.xml" />
-      <change type="DELETED" beforePath="C:\Users\HuangJie\workspace\ContactsWeb\.idea\libraries\Apache_Tomcat_7_0_34.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/baosight/sparkweb/message/ClientThread.java" afterPath="$PROJECT_DIR$/src/com/baosight/sparkweb/message/ClientThread.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ContactsWeb.iml" afterPath="$PROJECT_DIR$/ContactsWeb.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/baosight/sparkweb/message/IMMessageListner.java" afterPath="$PROJECT_DIR$/src/com/baosight/sparkweb/message/IMMessageListner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/baosight/sparkweb/message/IMReceiveMessage.java" afterPath="$PROJECT_DIR$/src/com/baosight/sparkweb/message/IMReceiveMessage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/baosight/sparkweb/message/IMSendMessage.java" afterPath="$PROJECT_DIR$/src/com/baosight/sparkweb/message/IMSendMessage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/baosight/sparkweb/message/IMSendMessageImpl.java" afterPath="$PROJECT_DIR$/src/com/baosight/sparkweb/message/IMSendMessageImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/smack.xml" afterPath="$PROJECT_DIR$/.idea/libraries/smack.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/baosight/sparkweb/service/SparkMail.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/baosight/sparkweb/service/imp/SparkNaviImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/baosight/sparkweb/service/SparkXmlServiceFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/excludeFromValidation.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/baosight/sparkweb/service/imp/SparkServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/baosight/sparkweb/service/imp/SparkServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/baosight/sparkweb/service/SparkXmlServiceInterface.java" afterPath="$PROJECT_DIR$/src/com/baosight/sparkweb/service/SparkXmlServiceInterface.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/baosight/sparkweb/service/servlet/SparkXmlServlet.java" afterPath="$PROJECT_DIR$/src/com/baosight/sparkweb/service/servlet/SparkXmlServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/baosight/sparkweb/xml/mailList.xml" afterPath="$PROJECT_DIR$/src/com/baosight/sparkweb/xml/mailList.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/mailList.xml" afterPath="$PROJECT_DIR$/web/mailList.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ContactsWeb.iws" />
@@ -45,16 +31,15 @@
     <file path="/ContactGList.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378290385492" ignored="false" />
     <file path="/a.dummy" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378299250091" ignored="false" />
     <file path="$PROJECT_DIR$/../ContactG/target/plugin.xml" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378297687730" ignored="false" />
-    <file path="/Dummy.txt" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1380102127361" ignored="false" />
+    <file path="/Dummy.txt" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1382505587760" ignored="false" />
     <file path="$PROJECT_DIR$/../ContactG/.idea/workspace.xml" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378298268348" ignored="false" />
     <file path="$PROJECT_DIR$/META-INF/application.xml" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378177764129" ignored="false" />
-    <file path="$PROJECT_DIR$/web/WEB-INF/web.xml" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378177910418" ignored="false" />
     <file path="/getcontacts.jsp" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378185053263" ignored="false" />
     <file path="/getcontactsg.jsp" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378185768774" ignored="false" />
     <file path="$PROJECT_DIR$/../ContactG/src/ContactGItem.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378187512220" ignored="false" />
     <file path="/ContactGItem.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378262732212" ignored="false" />
     <file path="$USER_HOME$/Spark/src/plugins/navigation/src/com/jivesoftware/spark/navigation/NavigationPlugin.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378208425865" ignored="false" />
-    <file path="/fragment.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1379401169629" ignored="false" />
+    <file path="/fragment.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1382507846939" ignored="false" />
     <file path="$USER_HOME$/Spark/build/build.xml" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378214577482" ignored="false" />
     <file path="$PROJECT_DIR$/../ContactG/src/com/baosight/spark/plugin/ContactGGroupListener.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378297470674" ignored="false" />
     <file path="$PROJECT_DIR$/../ContactG/src/com/baosight/spark/plugin/ContactGItem.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1378297570481" ignored="false" />
@@ -95,6 +80,7 @@
     <file path="$PROJECT_DIR$/../sparkSource/src/plugins/navigation/src/com/jivesoftware/spark/navigation/NavigationPlugin.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1380091836165" ignored="false" />
     <file path="/NavigationPlugin.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1380091836165" ignored="false" />
     <file path="$PROJECT_DIR$/../sparkSource/target/plugins/customizeMenuPlugin/plugin.xml" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1380093972673" ignored="false" />
+    <file path="/SparkMail.java" changelist="ec92dc09-ea0e-4b1b-adfe-fa6ad96c898a" time="1382509896066" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,11 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web/getcontacts.jsp" />
-        <option value="$PROJECT_DIR$/src/ClientThread.java" />
-        <option value="$PROJECT_DIR$/web/sendmessage.jsp" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/web/getcontactsg.jsp" />
         <option value="$PROJECT_DIR$/web/ClientThread.java" />
         <option value="$PROJECT_DIR$/web/getcontactsggroup.jsp" />
         <option value="$PROJECT_DIR$/src/com/baosight/sparkweb/message/ClientThread.java" />
@@ -188,6 +169,11 @@
         <option value="$PROJECT_DIR$/src/com/baosight/sparkweb/xml/org.xml" />
         <option value="$PROJECT_DIR$/src/com/baosight/sparkweb/xml/menu.xml" />
         <option value="$PROJECT_DIR$/src/com/baosight/sparkweb/xml/orgtree.xml" />
+        <option value="$PROJECT_DIR$/src/service/imp/SparkNaviImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/baosight/sparkweb/service/imp/SparkNaviImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/baosight/sparkweb/service/SparkMenu.java" />
+        <option value="$PROJECT_DIR$/src/com/baosight/sparkweb/service/servlet/SparkXmlServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/baosight/sparkweb/service/SparkMail.java" />
       </list>
     </option>
   </component>
@@ -202,10 +188,10 @@
     <option name="ENABLED" value="false" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
-    <option name="y" value="2" />
-    <option name="width" value="1196" />
-    <option name="height" value="745" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1309" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -242,7 +228,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -271,29 +256,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ContactsWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ContactsWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xml" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -325,13 +288,44 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContactsWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContactsWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="message" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -341,37 +335,85 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="reference.projectsettings.compiler.excludes" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="C:/Apache Software Foundation/Apache Tomcat 7.0.42/lib/servlet-api.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/baosight/sparkweb/service/imp/SparkServiceImpl.java" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="Downloaded.Files.Path" value="C:\Users\HuangJie\workspace\ContactsWeb\lib" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="Downloaded.Files.Path" value="C:\Users\HuangJie\workspace\ContactsWeb\lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\劼\workspace\ContactsWeb\src\com\baosight\sparkweb" />
+      <recent name="C:\Users\劼\workspace\ContactsWeb\src" />
       <recent name="C:\Users\HuangJie\workspace\ContactsWeb\web" />
       <recent name="C:\Users\HuangJie\workspace\ContactsWeb\src\com\baosight\sparkweb\xml" />
       <recent name="C:\Users\HuangJie\workspace\ContactsWeb\src\com\baosight\sparkweb\im" />
-      <recent name="C:\Users\SaintKnight\workspace\Sparkplugs\ContactsWeb\lib" />
-      <recent name="C:\Users\SaintKnight\workspace\Sparkplugs\ContactsWeb\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\劼\workspace\ContactsWeb\src\com\baosight\sparkweb\service" />
+      <recent name="C:\Users\劼\workspace\ContactsWeb\src\com\baosight\sparkweb" />
+      <recent name="C:\Users\劼\workspace\ContactsWeb\backup\imp" />
+      <recent name="C:\Users\劼\workspace\ContactsWeb\backup" />
       <recent name="C:\Users\HuangJie\workspace\ContactsWeb\web" />
-      <recent name="C:\Users\HuangJie\workspace\ContactsWeb\src\com\baosight\sparkweb\message" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Apache Tomcat 7.0.42">
+  <component name="RunManager" selected="Application.SparkMail">
+    <configuration default="false" name="SparkMail" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.baosight.sparkweb.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.baosight.sparkweb.service.SparkMail" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ContactsWeb" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SparkOrgTree" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.baosight.sparkweb.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.baosight.sparkweb.service.SparkOrgTree" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ContactsWeb" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -384,6 +426,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -412,19 +467,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -557,9 +599,17 @@
         </option>
       </method>
     </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Apache Tomcat 7.0.42" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SparkMail" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SparkOrgTree" />
     </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.SparkMail" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SparkOrgTree" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -617,12 +667,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="2" width="1196" height="745" extended-state="0" />
+    <frame x="-8" y="-8" width="1309" height="784" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280116" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32747602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6587031" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40493467" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -631,22 +682,21 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30670926" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280116" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295302" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280116" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29063603" sideWeight="0.6587031" order="0" side_tool="false" content_ui="combo" x="660" y="73" width="218" height="753" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34129694" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27871487" sideWeight="0.6597444" order="0" side_tool="false" content_ui="combo" x="660" y="73" width="218" height="753" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3402556" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946298" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30624092" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -716,52 +766,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/sendmessage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="375" selection-end="375" vertical-scroll-proportion="-7.464286">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="122" selection-start="289" selection-end="289" vertical-scroll-proportion="0.32264152">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/baosight/sparkweb/message/ClientThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="27" selection-start="99" selection-end="99" vertical-scroll-proportion="0.034050178" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/baosight/sparkweb/message/IMMessageListner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="223" selection-end="223" vertical-scroll-proportion="0.20430107" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/baosight/sparkweb/message/IMReceiveMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="21" selection-start="2358" selection-end="2358" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/baosight/sparkweb/message/IMSendMessageImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="47" selection-start="2230" selection-end="2230" vertical-scroll-proportion="0.4183486" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/baosight/sparkweb/message/IMSendMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="17" selection-start="713" selection-end="713" vertical-scroll-proportion="0.48924732" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/IM01.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="54" selection-start="712" selection-end="712" vertical-scroll-proportion="0.39056605">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/IM02.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.7924528">
@@ -790,30 +794,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/baosight/sparkweb/xml/mailList.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/baosight/sparkweb/service/imp/SparkNaviImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="391" selection-end="391" vertical-scroll-proportion="0.88372093">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/baosight/sparkweb/xml/org.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="67" selection-start="275" selection-end="275" vertical-scroll-proportion="-1.1820729">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/baosight/sparkweb/xml/orgtree.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="120" selection-start="301" selection-end="338" vertical-scroll-proportion="-1.9883721">
+        <state line="12" column="120" selection-start="301" selection-end="338" vertical-scroll-proportion="0.38">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/baosight/sparkweb/xml/menu.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="16" selection-start="1401" selection-end="1665" vertical-scroll-proportion="-2.872093">
+        <state line="29" column="45" selection-start="1446" selection-end="1446" vertical-scroll-proportion="0.93867123">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/baosight/sparkweb/service/SparkMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="26" selection-start="1917" selection-end="1921" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/baosight/sparkweb/service/SparkXmlServiceInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="76" selection-start="155" selection-end="155" vertical-scroll-proportion="0.43401015">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/baosight/sparkweb/service/imp/SparkServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="77" selection-start="785" selection-end="785" vertical-scroll-proportion="0.535533">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/baosight/sparkweb/service/SparkServiceXmlFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="22" selection-start="236" selection-end="236" vertical-scroll-proportion="0.33169532">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/baosight/sparkweb/service/servlet/SparkXmlServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="39" selection-start="87" selection-end="87" vertical-scroll-proportion="0.093366094">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/baosight/sparkweb/service/SparkMail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="171" column="20" selection-start="5111" selection-end="5111" vertical-scroll-proportion="0.6554404">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/baosight/sparkweb/service/SparkOrgTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="17" selection-start="2933" selection-end="2942" vertical-scroll-proportion="1.492228">
+          <folding>
+            <element signature="e#757#770#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/baosight/sparkweb/xml/mailList.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="32" selection-start="283" selection-end="283" vertical-scroll-proportion="-0.20375335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/baosight/sparkweb/xml/org.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="21" selection-start="175" selection-end="175" vertical-scroll-proportion="-0.59067357">
           <folding />
         </state>
       </provider>

@@ -81,7 +81,7 @@
             </row>
             <row>
                 <c0>http://10.25.36.197:9080/efmpxNew/CW/ML/CWML0018.jsp?mailId=3c1c2494-75df-4472-985e-2a74d78c8a9f&amp;nodeId=258f7097-27d4-45ce-9f3d-dc84f46e8e33</c0>
-                <c1>service</c1>
+                <c1>com.baosight.sparkweb.service</c1>
                 <c2>51CTO.COM 新用户激活信</c2>
                 <c3>2013-07-19 12:32:16</c3>
             </row>

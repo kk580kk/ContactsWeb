@@ -5,13 +5,19 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.baosight.iplat4j.security.bridge.SecurityBridge;
+import com.baosight.iplat4j.security.bridge.SecurityBridgeFactory;
+import com.baosight.platform.core.security.base.Filter;
 import com.baosight.sparkweb.service.SparkMenu;
 import com.baosight.sparkweb.service.SparkOrgTree;
 import com.baosight.sparkweb.service.SparkXmlServiceInterface;
 
+import com.baosight.iplat4j.es.domain.ESOrganization;
+import com.baosight.iplat4j.es.domain.ESPost;
+import com.baosight.iplat4j.es.domain.ESUser;
+
 public class SparkServiceImpl implements SparkXmlServiceInterface{
 
-	@Override
 	public String orgTree(HashMap params) {
 		// TODO Auto-generated method stub
 		
@@ -69,7 +75,6 @@ public class SparkServiceImpl implements SparkXmlServiceInterface{
 		return orgTree.toXmlString();
 	}
 
-	@Override
 	public String menu(HashMap params) {
 		SparkMenu menu = new SparkMenu();
 		
@@ -80,5 +85,82 @@ public class SparkServiceImpl implements SparkXmlServiceInterface{
 		//子菜单
 		menu.addRow(subMenuUUID,"测试ItemB","http://www.baidu.com");
 		return menu.toXmlString();
+	}
+	private String getParam(HashMap params,String key)
+	{
+		String[] tempStr = (String[])params.get(key);
+		if(tempStr != null)
+		{
+			return tempStr[0];
+		}
+		return null;
+	}
+	
+	private String realOrgTree(HashMap params)
+	{
+		//
+		SparkOrgTree orgTree = new SparkOrgTree();
+		String virtual = getParam(params,"parent");
+		String limit = getParam(params,"limit");
+		String offset = getParam(params,"offset");
+		if(limit == null) limit = "-1";
+		if(offset == null) offset = "-1";
+		
+		orgTree.addBlock("user");
+		orgTree.addBlock("org");
+		//org nodes
+		SecurityBridge b = SecurityBridgeFactory.getBridge();
+		List orgNodes;
+		List userNodes;
+		
+		try{
+		if (virtual == null) {
+			orgNodes =  b.getTopAuthzNodes(Integer.parseInt(offset),Integer.parseInt(limit));
+		} else {
+			orgNodes = b.getSubAuthzNodes(virtual,Integer.parseInt(offset),Integer.parseInt(limit));
+		}
+		
+		
+		ESOrganization temp ;
+		Filter filter = new Filter();
+		//need user
+		for(int i = 0 ; i < orgNodes.size() ; i++)
+		{
+			temp = (ESOrganization)orgNodes.get(i);
+			orgTree.addOrg(temp.getName(), temp.getLabel());
+	    }
+		
+		if(virtual != null)
+		{
+			//search user  what filter do?
+			ESPost  tempPost;
+			List ret = b.getProjectRoles(virtual, filter,Integer.parseInt(offset), Integer.parseInt(limit));
+			List members = null;
+			ESUser tempUser;
+			for(int i = 0 ; i  < ret.size() ; i++)
+			{
+				tempPost = (ESPost) ret.get(i);
+				members = b.getRoleMembers(tempPost.getPostLabel(), null, null,Integer.parseInt(offset),Integer.parseInt(limit));
+				if(members != null)
+				{
+					for(int ptr = 0 ; ptr < members.size() ; ptr++)
+					{
+						tempUser = (ESUser) members.get(ptr);
+						orgTree.addUser(tempUser.getDisplayName(), tempUser.getLoginName());
+					}
+				}
+			}
+		}
+		}catch(Exception e)
+		{
+			
+		}
+		return orgTree.toXmlString();
+		//user nodes
+	}
+	
+	public String doService(Map params) {
+		// TODO Auto-generated method stub
+		return realOrgTree((HashMap) params);
 	}
 }
